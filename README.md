@@ -15,6 +15,7 @@ https://mat-braz.github.io/
 - Contact and social links
 - Icon-based technology stack with visible labels
 - Project cards with specific technology tags
+- Smooth animated scrolling for internal page actions
 
 The page is presented as a single-page portfolio without a top navigation menu.
 
