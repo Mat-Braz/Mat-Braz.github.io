@@ -182,10 +182,14 @@ h1 span,
 
 .tech-icons li {
   display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: row;
   min-height: 3rem;
   align-items: center;
+  justify-content: center;
   gap: 0.55rem;
   padding: 0.5rem 0.85rem;
+  white-space: nowrap;
 }
 
 .tech-icons svg {
@@ -208,6 +212,8 @@ h1 span,
 .tech-icons span {
   font-size: 0.9rem;
   font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .tags {
