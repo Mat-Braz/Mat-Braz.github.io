@@ -8,12 +8,14 @@ https://mat-braz.github.io/
 
 ## Sections
 
-- Home
+- Hero
 - About Me
 - Services with visual icons
 - Projects
 - Contact and social links
 - Icon-based technology stack
+
+The page is presented as a single-page portfolio without a top navigation menu.
 
 ## Projects
 
