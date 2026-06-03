@@ -19,3 +19,9 @@ https://mat-braz.github.io/
 - [BZM Motors](https://github.com/Mat-Braz/BZM_Motors)
 - [findTec](https://github.com/Mat-Braz/findTec)
 - [Shopping Cart](https://github.com/Mat-Braz/CarrinhoDeCompras)
+
+## Contact
+
+- Email: [mateusbraz3521@gmail.com](mailto:mateusbraz3521@gmail.com)
+- GitHub: [Mat-Braz](https://github.com/Mat-Braz)
+- Instagram: [eu.m_braz](https://www.instagram.com/eu.m_braz)
