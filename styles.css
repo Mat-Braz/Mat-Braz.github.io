@@ -181,16 +181,17 @@ h1 span,
 }
 
 .tech-icons li {
-  display: inline-grid;
-  width: 3rem;
-  height: 3rem;
-  place-items: center;
-  padding: 0;
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.5rem 0.85rem;
 }
 
 .tech-icons svg {
-  width: 1.45rem;
-  height: 1.45rem;
+  flex: 0 0 auto;
+  width: 1.35rem;
+  height: 1.35rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.8;
@@ -202,6 +203,11 @@ h1 span,
   border-color: var(--blue);
   color: var(--blue);
   background: var(--blue-soft);
+}
+
+.tech-icons span {
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .tags {

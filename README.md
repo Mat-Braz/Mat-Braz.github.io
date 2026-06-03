@@ -13,7 +13,8 @@ https://mat-braz.github.io/
 - Services with visual icons
 - Projects
 - Contact and social links
-- Icon-based technology stack
+- Icon-based technology stack with visible labels
+- Project cards with specific technology tags
 
 The page is presented as a single-page portfolio without a top navigation menu.
 
