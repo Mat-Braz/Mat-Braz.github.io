@@ -68,13 +68,51 @@
         <div class="tech-panel" aria-label="Tech stack">
           <p>Tech Stack</p>
           <h2>Technologies I use and study.</h2>
-          <ul>
-            <li>React Native</li>
-            <li>Expo</li>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Firebase</li>
-            <li>Git</li>
+          <ul class="tech-icons">
+            <li aria-label="React Native" title="React Native">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="2.1" />
+                <ellipse cx="12" cy="12" rx="9" ry="3.5" />
+                <ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(60 12 12)" />
+                <ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(120 12 12)" />
+              </svg>
+            </li>
+            <li aria-label="Expo" title="Expo">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4 21 20H16.8L12 11.5 7.2 20H3L12 4Z" />
+              </svg>
+            </li>
+            <li aria-label="JavaScript" title="JavaScript">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <path d="M9 9V15.5C9 17 8.2 18 6.6 18" />
+                <path d="M13 17C13.8 17.7 16.5 18.2 16.5 15.8C16.5 13.8 13.4 14.4 13.4 12.2C13.4 10.3 15.5 10.1 17 10.9" />
+              </svg>
+            </li>
+            <li aria-label="TypeScript" title="TypeScript">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <path d="M7 9H13" />
+                <path d="M10 9V18" />
+                <path d="M14 17C14.8 17.7 17.5 18.2 17.5 15.8C17.5 13.8 14.4 14.4 14.4 12.2C14.4 10.3 16.5 10.1 18 10.9" />
+              </svg>
+            </li>
+            <li aria-label="Firebase" title="Firebase">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 19 8 5 12 12 15 7 19 19 12 22 5 19Z" />
+                <path d="M8 5 5 19 12 12" />
+              </svg>
+            </li>
+            <li aria-label="Git" title="Git">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 21 12 12 21 3 12 12 3Z" />
+                <circle cx="9" cy="9" r="1.6" />
+                <circle cx="15" cy="15" r="1.6" />
+                <circle cx="15" cy="9" r="1.6" />
+                <path d="M10.2 10.2 13.8 13.8" />
+                <path d="M10.6 9H13.4" />
+              </svg>
+            </li>
           </ul>
         </div>
 
@@ -113,7 +151,12 @@
         </div>
         <div class="service-grid">
           <article>
-            <div class="icon" aria-hidden="true">APP</div>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <rect x="7" y="3" width="10" height="18" rx="2" />
+                <path d="M10 18H14" />
+              </svg>
+            </div>
             <h3>Mobile Development</h3>
             <p>
               Building cross-platform mobile apps with structured screens,
@@ -121,7 +164,13 @@
             </p>
           </article>
           <article>
-            <div class="icon" aria-hidden="true">UI</div>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <rect x="4" y="5" width="16" height="14" rx="2" />
+                <path d="M8 9H16" />
+                <path d="M8 13H13" />
+              </svg>
+            </div>
             <h3>UI Implementation</h3>
             <p>
               Translating visual ideas into accessible, responsive interfaces
@@ -129,7 +178,13 @@
             </p>
           </article>
           <article>
-            <div class="icon" aria-hidden="true">API</div>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M8 8 4 12 8 16" />
+                <path d="M16 8 20 12 16 16" />
+                <path d="M14 5 10 19" />
+              </svg>
+            </div>
             <h3>App Integration</h3>
             <p>
               Connecting apps with APIs, data sources, authentication flows, and
@@ -137,7 +192,12 @@
             </p>
           </article>
           <article>
-            <div class="icon" aria-hidden="true">OK</div>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M8 12.4 10.7 15 16 9" />
+              </svg>
+            </div>
             <h3>Project Delivery</h3>
             <p>
               Organizing features, improving code quality, and polishing app
@@ -238,29 +298,39 @@
       </section>
 
       <section class="section contact" id="contact" aria-labelledby="contact-title">
-        <div>
+        <div class="contact-intro">
           <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Let's build something together.</h2>
-          <p>
-            I am open to opportunities, collaborations, and new challenges.
-            Reach out through the platforms below.
-          </p>
+          <h2 id="contact-title">Find me online.</h2>
         </div>
         <div class="contact-links" aria-label="Contact and social links">
-          <a href="mailto:mateusbraz3521@gmail.com">mateusbraz3521@gmail.com</a>
+          <a href="mailto:mateusbraz3521@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6H20V18H4V6Z" />
+              <path d="M5 7 12 13 19 7" />
+            </svg>
+            <span>mateusbraz3521@gmail.com</span>
+          </a>
           <a
             href="https://github.com/Mat-Braz"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3C7 3 3 7.1 3 12.2C3 16.2 5.6 19.6 9.2 20.8C9.6 20.9 9.8 20.6 9.8 20.3V18.8C7.3 19.4 6.8 17.7 6.8 17.7C6.4 16.7 5.9 16.4 5.9 16.4C5.1 15.9 6 15.9 6 15.9C6.8 15.9 7.3 16.8 7.3 16.8C8 18 9.2 17.7 9.8 17.5C9.9 17 10.1 16.7 10.3 16.5C8.3 16.3 6.2 15.5 6.2 12.1C6.2 11.1 6.5 10.3 7.1 9.6C7 9.4 6.7 8.4 7.2 7.2C7.2 7.2 7.9 7 9.8 8.2C10.5 8 11.3 7.9 12 7.9C12.7 7.9 13.5 8 14.2 8.2C16.1 7 16.8 7.2 16.8 7.2C17.3 8.4 17 9.4 16.9 9.6C17.5 10.3 17.8 11.1 17.8 12.1C17.8 15.5 15.7 16.3 13.7 16.5C14 16.8 14.3 17.4 14.3 18.3V20.3C14.3 20.6 14.5 20.9 14.9 20.8C18.5 19.6 21 16.2 21 12.2C21 7.1 17 3 12 3Z" />
+            </svg>
+            <span>GitHub</span>
           </a>
           <a
             href="https://www.instagram.com/eu.m_braz"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="5" y="5" width="14" height="14" rx="4" />
+              <circle cx="12" cy="12" r="3.2" />
+              <circle cx="16.7" cy="7.3" r="0.8" />
+            </svg>
+            <span>Instagram</span>
           </a>
         </div>
       </section>

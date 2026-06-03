@@ -10,9 +10,10 @@ https://mat-braz.github.io/
 
 - Home
 - About Me
-- Services
+- Services with visual icons
 - Projects
 - Contact and social links
+- Icon-based technology stack
 
 ## Projects
 
