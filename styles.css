@@ -369,6 +369,16 @@ h1 span,
     var(--blue);
 }
 
+.project-media svg {
+  width: 4.25rem;
+  height: 4.25rem;
+  fill: none;
+  stroke: white;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .project-media span {
   color: white;
   font-size: 2rem;
@@ -376,15 +386,15 @@ h1 span,
 }
 
 .project-media.bzm {
-  background-color: #1167a9;
+  background-color: var(--blue);
 }
 
 .project-media.findtec {
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 .project-media.cart {
-  background-color: var(--orange);
+  background-color: var(--blue);
 }
 
 .project-content {
